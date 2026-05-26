@@ -1,6 +1,4 @@
-/* =============================
-   リセット
-============================= */
+/*  リセット*/
 *,
 *::before,
 *::after{
@@ -19,9 +17,7 @@ body{
   background: #fff;
 }
 
-/* =============================
-   ヘッダー
-============================= */
+/* ヘッダー*/
 .header{
   position: fixed;
   top: 0;
@@ -47,9 +43,7 @@ body{
   display: block;
 }
 
-/* =============================
-   ハンバーガー
-============================= */
+/* ハンバーガー*/
 .hamburger{
   width: 40px;
   height: 30px;
@@ -103,9 +97,7 @@ body{
   transform: rotate(-45deg);
 }
 
-/* =============================
-   メニュー
-============================= */
+/*メニュー */
 .menu{
   position: fixed;
 
@@ -176,9 +168,7 @@ body{
   line-height: 2.5;
 }
 
-/* =============================
-   背景
-============================= */
+/*背景 */
 .overlay{
   position: fixed;
 
@@ -200,9 +190,7 @@ body{
   visibility: visible;
 }
 
-/* =============================
-   動画
-============================= */
+/*動画*/
 .main-visual video{
   width: 100%;
 
@@ -213,9 +201,7 @@ body{
   display: block;
 }
 
-/* =============================
-   PICK UP
-============================= */
+/* =PICK UP*/
 .pickup{
   width: 100%;
 
@@ -285,9 +271,7 @@ body{
   -webkit-user-drag: none;
 }
 
-/* =============================
-   FEATURE
-============================= */
+/*FEATURE*/
 .feature{
   padding: 100px 60px;
 
@@ -380,9 +364,7 @@ body{
   text-align: right;
 }
 
-/* =============================
-   CONTACT
-============================= */
+/*CONTACT*/
 
 .contact{
   background: #111;
@@ -491,9 +473,7 @@ body{
   color: #111;
 }
 
-/* =============================
-   フッター
-============================= */
+/* フッター*/
 .footer{
   background: #111;
 
@@ -506,3 +486,25 @@ body{
   font-size: 12px;
 }
 
+/* × */
+.hamburger.active span:nth-child(1){
+  top: 14px;
+
+  /* transform: rotate(45deg); */
+  transform: rotate(315deg);
+
+}
+
+.hamburger.active span:nth-child(2){
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3){
+  top: 14px;
+
+  /* transform: rotate(-45deg); */
+  transform: rotate(-315deg);
+}
+.hamburger.active span{
+  background: #FFF;
+}

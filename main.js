@@ -1,6 +1,5 @@
-// ==========================
+
 // ハンバーガーメニュー
-// ==========================
 
 // 要素取得
 const hamburger = document.getElementById("hamburger");
@@ -34,9 +33,7 @@ overlay.addEventListener("click", () => {
 
 });
 
-// ==========================
 // PICK UP ドラッグスクロール
-// ==========================
 
 // 要素取得
 const slider = document.querySelector(".pickup-slider");
@@ -55,9 +52,7 @@ let loopWidth;
 // マウス位置
 let currentX = 0;
 
-// ==========================
 // 読み込み後
-// ==========================
 
 window.addEventListener("load", () => {
 
@@ -68,9 +63,7 @@ window.addEventListener("load", () => {
 
 });
 
-// ==========================
 // マウス押した時
-// ==========================
 
 slider.addEventListener("mousedown", () => {
 
@@ -80,9 +73,7 @@ slider.addEventListener("mousedown", () => {
 
 });
 
-// ==========================
 // マウス離した時
-// ==========================
 
 document.addEventListener("mouseup", () => {
 
@@ -92,9 +83,7 @@ document.addEventListener("mouseup", () => {
 
 });
 
-// ==========================
 // マウス移動量取得
-// ==========================
 
 slider.addEventListener("mousemove", (e) => {
 
@@ -106,9 +95,7 @@ slider.addEventListener("mousemove", (e) => {
 
 });
 
-// ==========================
 // 滑らかスクロール
-// ==========================
 
 function smoothScroll(){
 
@@ -135,9 +122,8 @@ function smoothScroll(){
 
 smoothScroll();
 
-// ==========================
+
 // FEATURE フェードイン
-// ==========================
 
 const cards = document.querySelectorAll(".card");
 
